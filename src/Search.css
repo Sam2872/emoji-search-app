@@ -1,0 +1,74 @@
+/* search section */
+.Search{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Search-input{
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid;
+}
+.Search-input input{
+    width: 90%;
+    height: 5rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Search-input button{
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: #f542a4;
+    background-color: inherit;
+    border: none;
+}
+@media screen and (max-width:900px) {
+    .Search-input input{
+        width: 80%;
+    }
+}
+/* Emoji Section */
+.emoji-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.emoji-card{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.emoji-card span{
+    transition: all 0.8s;
+}
+.emoji-card p{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+ .emoji-card:hover {
+    transform: scale(1.05);
+} 
+.emoji-card:hover p{
+   opacity: 0;
+}
+.emoji-card:hover span{
+   transform: scale(1.6);
+
+}
+.emoji-card span{
+    font-size: 3.5em;
+}
