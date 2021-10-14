@@ -1,5 +1,6 @@
 .app{
     width: 100%;
+<<<<<<< HEAD
 }
 h1{
     text-align: center;
@@ -8,4 +9,10 @@ h1{
 h2{
     text-align: center;
     color: gray;
+=======
+}
+h1{
+    text-align: center;
+    color: #326fa8;
+>>>>>>> 24f4497c7d8e81f3ee45a62c3faa4a0352183bff
 }
